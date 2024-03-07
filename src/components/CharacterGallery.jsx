@@ -7,6 +7,7 @@ const CharacterGallery = () => {
             <p>Update 1</p>
             <p>Update 2</p>
             <p>Deployed using GH action pipeline</p>
+            <p>With failing test</p>
             {characterData.map(
                 (data) => <Character
                     key={data._id}

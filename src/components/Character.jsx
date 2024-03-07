@@ -9,7 +9,7 @@ function Character({ name, imgUrl, birth, death, race, realm, spouse }) {
                 <li>Date of Death: {death}</li>
                 <li>Race: {race}</li>
                 <li>Realm: {realm}</li>
-                <li>Spouse: {spouse}</li>
+                {/* <li>Spouse: {spouse}</li> */}
             </ul>
         </>
     );
