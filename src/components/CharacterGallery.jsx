@@ -5,6 +5,7 @@ const CharacterGallery = () => {
     return (
         <>
             <p>Update 1</p>
+            <p>Update 2</p>
             {characterData.map(
                 (data) => <Character
                     key={data._id}
