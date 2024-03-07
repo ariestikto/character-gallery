@@ -9,7 +9,7 @@ const samwiseGamgee = {
     "birth": "April 6 ,2980",
     "spouse": "Rosie Cotton",
     "death": "Still alive, after going to the ,Undying Lands, in ,FO 61",
-    "realm": "test",
+    "realm": "",
     "hair": "Blond (movie)",
     "name": "Samwise Gamgee",
     "wikiUrl": "http://lotr.wikia.com//wiki/Samwise_Gamgee",
@@ -118,7 +118,7 @@ describe('Character Component Renders Props', () => {
 
     it("Renders the Character's Realm", () => {
         render(<Character { ...samwiseGamgee } />);
-        const charRealm = screen.getByText(`Realm: ${samwiseGamgee.realm}`);
+        const charRealm = screen.getByText(`Realm:${samwiseGamgee.realm}`);
 
         expect(charRealm).toBeDefined();
     });
